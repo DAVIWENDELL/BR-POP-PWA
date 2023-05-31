@@ -1,0 +1,161 @@
+/*--------------------------------AJUSTE DO BODY NO HTML----------------------------------------*/
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    padding: 0px!important;
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+/*----------------FUNDO DO SITE-------------------------------------------------*/
+
+.fundocor{
+    background-image: linear-gradient(to left, rgb(20, 147, 220), rgb(17, 54, 71) );
+}
+
+/*-----------------MENU PRICIPAL DO SITE----------------------------------------*/
+
+.menu-principal {
+    width: 100%;
+    background-color:#264464;
+    height: 85px;
+}
+
+/*--------------------LOGO DO SITE BRPOP----------------------------------------*/
+
+.logo{
+    float:left;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 14%;
+    
+}
+
+/*------------------REDES SOCIAIS DO SITE---------------------------------------*/
+
+.redes-sociais ul li {
+    float: left;
+    list-style: none;
+    margin-right: 8%;
+}
+.redes-sociais {
+    margin-top: 1%;
+    width: 33%;
+    float: right;
+}
+/*----------------------BARRA DE MENU DE NAVEGAÇÃO COM ANIMAÇÃO----------------------------*/
+.menu nav ul li a:hover {
+    color: #2600ffbc;
+ }
+/*-------------------BARRA DE MENU DE NAVEGAÇÃO----------------------------------------*/
+
+.header-2 {
+    padding-top: 0.1px;
+    background-color: rgba(227, 224, 224, 0.864);
+    width: 100%;
+    border-bottom: 5px solid #264464bc;
+}
+.header-2 ul li {
+    color: #555555e8;
+    padding-top: 1%;
+    list-style: none;
+    display: inline-block;
+    margin-left: 14.2%;
+}
+.header-2 ul li a{
+    color: #555555e8;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/*----------------------CADASTRO DE MOTORISTAS-----------------------------*/
+.box{
+    color: white;
+    position: absolute;
+    top: 67%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 15px;
+    width: 22%;
+}
+/*-----------------------CADASTRO USUÁRIOS---------------------------------*/
+.box2{
+    color: white;
+    position: absolute;
+    top: 67%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 15px;
+    width: 22%;
+}
+/*-----------------------EDIÇÃO DOS DOIS FIELDSETS---------------*/
+fieldset{
+    border: 3px solid dodgerblue ;
+}
+legend{
+    border: 1px solid dodgerblue;
+    padding: 5px;
+    background-color: dodgerblue;
+    text-align: center;
+    border-radius: 8px;
+}
+/*-----------------------EDIÇÃO DOS INPUTS-----------------------*/
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+/*----------------------ANIMAÇÃO NOS INPUTS------------------------*/
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top:-20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+/*-----------------------DATA DE NASCIMENTO----------------------*/
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+/*------------------------BOTÃO ENVIAR----------------------------*/
+#submit{
+    background-image: linear-gradient(to left, rgb(20, 147, 220), rgb(17, 54, 71) );
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
